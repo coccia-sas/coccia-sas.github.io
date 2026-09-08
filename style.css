@@ -259,3 +259,31 @@ h2 {
   .contact-grid { grid-template-columns: 1fr; }
   .teaching-item { grid-template-columns: 1fr; gap: 4px; }
 }
+
+/* ===== Paper figures ===== */
+.paper-figure {
+  margin: 16px 0 14px;
+  padding: 0;
+}
+.paper-figure a {
+  display: block;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+.paper-figure a:hover { border-color: var(--accent); }
+.paper-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+.paper-figure figcaption {
+  font-family: var(--sans);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 9px;
+}
+.paper-figure.narrow { max-width: 470px; }

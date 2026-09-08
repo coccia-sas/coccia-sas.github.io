@@ -277,7 +277,7 @@ h2 {
 .paper-figure a:hover { border-color: var(--accent); }
 .paper-figure img {
   display: block;
-  max-height: 190px;
+  max-height: 250px;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -292,5 +292,5 @@ h2 {
   max-width: 520px;
 }
 @media (max-width: 620px) {
-  .paper-figure img { max-height: 150px; }
+  .paper-figure img { max-height: 200px; }
 }

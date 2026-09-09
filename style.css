@@ -265,6 +265,7 @@ h2 {
   margin: 14px 0 12px;
   padding: 0;
   max-width: 100%;
+  text-align: center;
 }
 .paper-figure a {
   display: inline-block;
@@ -288,8 +289,9 @@ h2 {
   font-size: 13px;
   line-height: 1.5;
   color: var(--muted);
-  margin-top: 7px;
+  margin: 7px auto 0;
   max-width: 520px;
+  text-align: center;
 }
 @media (max-width: 620px) {
   .paper-figure img { max-height: 200px; }
